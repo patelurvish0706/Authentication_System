@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@400;500;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap');
+
+        /* font-family: 'Poppins', sans-serif; */
+        /* font-family: 'Ysabeau', sans-serif; */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #fafafa;
+            width: 100vw;
+            overflow-x: hidden;
+        }
+
+        /* header */
+
+        .header {
+            margin: -25rem 6rem;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 40px;
+        }
+
+        #lit-title1 {
+            position: absolute;
+            top: 150px;
+            color: #0008;
+            font-size: 50px;
+            min-width: 30px;
+            font-family: 'Ysabeau', sans-serif;
+            font-weight: 700;
+        }
+
+        #lit-title2 {
+            position: absolute;
+            top: 560px;
+            color: #0005;
+            font-size: 50px;
+            min-width: 30px;
+            font-family: 'Ysabeau', sans-serif;
+            font-weight: 700;
+            white-space: nowrap;
+        }
+
+        #Urvish,
+        #Urvish2,
+        #Urvish3 {
+            position: absolute;
+            left: 6rem;
+            font-size: 125px;
+            min-width: 80px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            white-space: nowrap;
+            text-shadow: 0px 0px 15px #0001;
+        }
+
+        #Urvish {
+            color: rgb(236, 236, 236);
+            top: 200px;
+            z-index: 7;
+        }
+
+        #Urvish2 {
+            color: rgb(176, 176, 176);
+            top: 300px;
+            z-index: 9;
+        }
+
+        #Urvish3 {
+            color: rgba(232, 232, 232, 0.459);
+            top: 400px;
+            z-index: 8;
+        }
+
+        /* section */
+
+        .section1 {
+            position: absolute;
+            justify-content: center;
+            top: 800px;
+            width: 100vw;
+            /* margin: 5rem; */
+        }
+
+        h2 {
+            display: flex;
+            justify-content: left;
+            width: 85%;
+            margin: auto auto;
+            color: #0008;
+            font-size: 60px;
+            min-width: 50px;
+            font-family: 'Ysabeau', sans-serif;
+            font-weight: 700;
+        }
+
+        .cont {
+            position: relative;
+            margin: auto;
+            width: 80%;
+            color: rgba(20, 20, 20, 0.844);
+            /* font-size: 50px; */
+            font-size: clamp(20px, 10vw, 32px);
+            min-width: 40px;
+            font-family: 'Ysabeau', sans-serif;
+            font-weight: 500;
+        }
+
+        /* super powers */
+        /* == html == */
+
+        .pageFrame {
+            position: relative;
+            background-color: #0001;
+            padding: 50px;
+            border-radius: 10px;
+            width: 80%;
+            margin: auto;
+        }
+
+        /* bar */
+
+        .skills-container {
+            margin-top: 30px;
+        }
+
+        .skill {
+            margin-bottom: 20px;
+        }
+
+        .skill-name {
+            display: inline-block;
+            width: 80px;
+            font-size: 40px;
+            font-family: 'Ysabeau', sans-serif;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .skill-bar {
+            background-color: #ffffff;
+            box-shadow: 0px 0px 15px #0001;
+            height: 20px;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .skill-bar.visible {
+            opacity: 1;
+        }
+
+        .skill-progress {
+            background-color: #0003;
+            box-shadow: 0px 0px 15px #0005;
+            height: 100%;
+        }
+
+        .html-progress {
+            width: 90%;
+        }
+
+        .css-progress {
+            width: 80%;
+        }
+
+        .js-progress {
+            width: 70%;
+        }
+
+        .php-progress {
+            width: 60%;
+        }
+
+        .mysql-progress {
+            width: 50%;
+        }
+
+
+        /* ule li  */
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            margin: auto;
+        }
+
+
+        /* animated css */
+
+        .section1 {
+            opacity: 1;
+            transition: opacity 0.5s;
+        }
+
+        .section1:not(:hover) {
+            opacity: 0;
+        }
+
+        .pageFrame {
+            opacity: 0;
+            transition: opacity 1.5s;
+        }
+
+        .pageFrame:hover {
+            opacity: 1;
+        }
+
+
+
+        /* section2 Footer... */
+
+        .section2 {
+            color: #0008;
+            font-family: 'Poppins', sans-serif;
+            position: relative;
+            background-color: #0001;
+            margin-top: 150px;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .foo-box {
+            font-size: 20px;
+        }
+
+        
+        /* navos */
+
+        #navos{
+            color: #0008;
+            margin: 40px 60px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 20px;
+            font-family: 'Poppins', sans-serif; 
+        }
+
+        #navos ul{
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #navos ul li{
+            list-style: none;
+            color: rgba(0, 0, 255, 0.425);
+            padding : 2px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            white-space: nowrap;
+            text-align : center;
+            margin : 10px
+        }
+        
+        #navos ul li a:hover{
+            color: rgba(0, 0, 255, 0.763);
+        }
+

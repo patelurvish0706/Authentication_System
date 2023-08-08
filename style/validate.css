@@ -1,0 +1,43 @@
+body{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    font-size: 30px;
+    color: #f00d;
+    text-shadow: 0px 0px 10px #0003;
+    margin: 15% 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.goback{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-size: 15px;
+    color: #000a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width:auto; */
+}
+
+button{
+    font-size: 18px;
+    color: #000;
+    text-shadow: 0px 0px 20px #0003;
+    padding: 6px 18px;
+    background: transparent;
+    border: 1px solid #000;
+    border-radius: 5px;
+}

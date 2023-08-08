@@ -1,0 +1,89 @@
+body{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+}
+
+.signUp,.logIn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-title{
+    color: #000;
+    margin: 20px auto;
+}
+
+input{
+    font-size: 18px;
+    padding: 8px;
+    margin: 5px 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sec-title{
+    color: #0004;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* text-shadow: 0px 0px 3px #0001; */
+    font-weight: 300;
+    font-size: 15px;
+}
+
+input:hover{
+    box-shadow: 0px 1px 10px #0005;
+    border: 1px solid #000;
+}
+
+.check label{
+    color: #0005;
+}
+
+.error{
+    color: red;
+    text-shadow: 0px 1px 10px #f005;
+    display: none;
+    margin: 6px 0px 0px 0px ;
+    border-radius: 5px;
+}
+
+/* /------------------- */
+
+#submit-title{
+    color: green;
+    text-shadow: 0px 0px 10px #0f05;
+    display: none;
+    margin: 5px 0px;
+    padding: 0;
+}
+
+a{
+    color:#0000b9;
+}
+a:hover{
+    color: blue;
+}
+
+.submit{
+    box-shadow: none;
+}
+
+.submit:hover{
+    box-shadow: none;
+}
