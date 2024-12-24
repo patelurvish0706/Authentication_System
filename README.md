@@ -34,8 +34,7 @@ To run this project, you need the following:
 - MySQL or any other compatible database system
 
 ## live Preview
-Click on this link to see the live preview of Project : 
-[https://urvish-project01.000webhostapp.com/](https://urvish-project01.000webhostapp.com/)
+Click on this link to see the live preview of Project : [Link Offline 😕]
 
 ```
 Avoid Security Alerts.
