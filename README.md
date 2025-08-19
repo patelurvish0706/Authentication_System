@@ -1,6 +1,6 @@
 # 🔐 Secure Login and Signup PHP Project
 
-### 📸 Screenshots: [https://github.com/patelurvish0706/Authentication_System/blob/main/screenshot.md]
+### 📸 Screenshots: [Screenshots are here](https://github.com/patelurvish0706/Authentication_System/blob/main/screenshot.md)
 
 This project is a simple PHP-based login and signup system with enhanced security measures to protect user information. This is also my First upload on Github to display my skills and presentation. You can download it and use, modify, and distribute the code as per the terms of the license.
 
